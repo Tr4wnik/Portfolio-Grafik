@@ -11,7 +11,270 @@
     padding: 0;
     box-sizing: border-box;
 }
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | Antoni Mokrzan</title>
 
+<style>
+:root{
+  --blue:#2563eb;
+  --dark:#020617;
+  --light:#f8fafc;
+}
+
+/* RESET */
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth;}
+body{
+  font-family: Arial, sans-serif;
+  color:white;
+  overflow-x:hidden;
+}
+
+/* ANIMOWANE TŁO */
+body::before{
+  content:"";
+  position:fixed;
+  width:200%;
+  height:200%;
+  background:linear-gradient(120deg,#ffffff,#2563eb,#0ea5e9);
+  animation:bg 10s linear infinite;
+  z-index:-2;
+}
+@keyframes bg{
+  0%{transform:translate(0,0)}
+  50%{transform:translate(-25%,-25%)}
+  100%{transform:translate(0,0)}
+}
+
+/* NOISE */
+body::after{
+  content:"";
+  position:fixed;
+  width:100%;
+  height:100%;
+  background:url('https://grainy-gradients.vercel.app/noise.svg');
+  opacity:.2;
+  z-index:-1;
+}
+
+/* NAV */
+nav{
+  position:fixed;
+  width:100%;
+  height:60px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 20px;
+  backdrop-filter:blur(10px);
+  background:rgba(0,0,0,.3);
+  z-index:1000;
+}
+
+.logo{
+  width:40px;
+  height:40px;
+  background:white;
+  cursor:pointer;
+}
+
+.menu{
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.menu a{
+  margin:0 8px;
+  font-size:14px;
+  text-decoration:none;
+  color:white;
+}
+
+/* HERO */
+.hero{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.hero h1{
+  font-size:60px;
+  color:var(--blue);
+}
+
+/* SEKCJE */
+section{
+  padding:80px 20px;
+}
+
+/* O MNIE */
+.about{
+  background:var(--blue);
+  text-align:center;
+  position:relative;
+}
+
+.about-box{
+  margin:30px auto 0;
+  width:200px;
+  height:200px;
+  background:white;
+  border-radius:15px 0 15px 0;
+}
+
+/* PROJEKTY placeholder */
+.projects{
+  background:#0f172a;
+  text-align:center;
+}
+
+/* FOOTER */
+footer{
+  background:var(--dark);
+  padding:60px 20px;
+  text-align:center;
+}
+
+.footer-grid{
+  display:flex;
+  flex-direction:column;
+  gap:30px;
+}
+
+.footer-title{
+  font-size:22px;
+}
+
+.footer-sub{
+  font-size:14px;
+  opacity:.7;
+}
+
+/* IKONKI */
+.social, .contact{
+  display:flex;
+  justify-content:center;
+  gap:15px;
+}
+
+.icon{
+  width:30px;
+  height:30px;
+  background:white;
+}
+
+/* DESKTOP */
+@media(min-width:768px){
+
+.hero h1{
+  font-size:100px;
+}
+
+.about{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  text-align:left;
+}
+
+.about-text{
+  width:50%;
+}
+
+.about-box{
+  width:300px;
+  height:300px;
+}
+
+.footer-grid{
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.footer-center{
+  text-align:center;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo" onclick="location.reload()"></div>
+
+<div class="menu">
+<a href="#about">O mnie</a>
+<a href="#projects">Projekty</a>
+<a href="#pricing">Wycena</a>
+<a href="#contact">Kontakt</a>
+</div>
+</nav>
+
+<section class="hero">
+<h1>PORTFOLIO</h1>
+</section>
+
+<section id="about" class="about">
+<div class="about-text">
+<h2>O mnie</h2>
+<p>Mam na imię Antoni Mokrzan. Tworzę grafiki dla klubów sportowych, social media i branding.</p>
+</div>
+
+<div class="about-box"></div>
+</section>
+
+<section id="projects" class="projects">
+<h2>Projekty (tu wrzucisz swoje)</h2>
+</section>
+
+<section id="pricing" class="projects">
+<h2>Wycena (do uzupełnienia)</h2>
+</section>
+
+<footer id="contact">
+<div class="footer-grid">
+
+<!-- LEWA -->
+<div>
+<div class="social">
+<div class="icon"></div>
+<div class="icon"></div>
+<div class="icon"></div>
+</div>
+</div>
+
+<!-- ŚRODEK -->
+<div class="footer-center">
+<p class="footer-title">POROZMAWIAJMY...</p>
+<p class="footer-sub">@antoni_mokrzan</p>
+</div>
+
+<!-- PRAWA -->
+<div>
+<div class="contact">
+<div class="icon"></div>
+<div class="icon"></div>
+</div>
+<p>519603234</p>
+<p>antonimokrzan@gmail.com</p>
+<p>Kalisz, Wielkopolska</p>
+</div>
+
+</div>
+
+<p style="margin-top:40px;">© 2026 Antoni Mokrzan</p>
+</footer>
+
+</body>
+</html>
 body {
     font-family: Arial, sans-serif;
     color: #fff;
