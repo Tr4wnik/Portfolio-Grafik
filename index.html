@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Antek | Graphic Designer</title>
+<title>Portfolio | Antoni Mokrzan</title>
 
 <style>
 * {
@@ -14,96 +14,108 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #0f172a;
-    color: #f8fafc;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* ANIMOWANE TŁO */
+body::before {
+    content: "";
+    position: fixed;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(120deg, #ffffff, #2563eb, #0ea5e9);
+    animation: moveBG 10s infinite linear;
+    z-index: -2;
+}
+
+@keyframes moveBG {
+    0% {transform: translate(0,0);}
+    50% {transform: translate(-25%, -25%);}
+    100% {transform: translate(0,0);}
+}
+
+/* SZUM */
+body::after {
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url('https://grainy-gradients.vercel.app/noise.svg');
+    opacity: 0.2;
+    z-index: -1;
 }
 
 /* NAV */
 nav {
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 20px 50px;
-    background: #0f172a;
+    backdrop-filter: blur(10px);
+    background: rgba(0,0,0,0.3);
 }
 
-nav h1 {
-    color: #2563eb;
+.logo {
+    width: 120px;
+    height: 40px;
+    background: gray; /* tu wrzucisz logo */
 }
 
 nav a {
-    color: #f8fafc;
-    text-decoration: none;
+    color: white;
     margin-left: 20px;
+    text-decoration: none;
 }
 
 /* HERO */
 .hero {
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 50px;
-}
-
-.hero h2 {
-    font-size: 50px;
-}
-
-.hero span {
-    color: #2563eb;
-}
-
-.btn {
-    margin-top: 20px;
-    padding: 12px 25px;
-    background: #2563eb;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
-
-/* PROJECTS */
-.projects {
-    padding: 60px 50px;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-.card {
-    background: #1e293b;
-    height: 200px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.hero h1 {
+    font-size: 100px;
+    color: #2563eb;
+}
+
 /* ABOUT */
 .about {
-    padding: 60px 50px;
+    background: #2563eb;
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* CONTACT */
-.contact {
-    padding: 60px 50px;
+.about-text {
+    width: 50%;
 }
 
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    background: #1e293b;
-    border: none;
-    color: white;
+.about-text h2 {
+    margin-bottom: 20px;
 }
 
+.about-box {
+    width: 300px;
+    height: 300px;
+    background: white;
+    border-radius: 15px 0 15px 0;
+}
+
+/* FOOTER */
 footer {
+    padding: 40px;
     text-align: center;
-    padding: 20px;
     background: #020617;
+}
+
+.links a {
+    color: #2563eb;
+    margin: 0 10px;
 }
 </style>
 </head>
@@ -111,49 +123,41 @@ footer {
 <body>
 
 <nav>
-<h1>Antek</h1>
+<div class="logo"></div>
+
 <div>
-<a href="#projects">Projekty</a>
 <a href="#about">O mnie</a>
+<a href="#">Wycena</a>
 <a href="#contact">Kontakt</a>
 </div>
 </nav>
 
 <section class="hero">
-<h2>Graphic Designer <span>for Sports</span></h2>
-<p>Tworzę nowoczesne grafiki dla klubów sportowych i marek.</p>
-<button class="btn" onclick="document.getElementById('contact').scrollIntoView()">Kontakt</button>
-</section>
-
-<section id="projects" class="projects">
-<h2>Projekty</h2>
-<div class="grid">
-<div class="card">Projekt 1</div>
-<div class="card">Projekt 2</div>
-<div class="card">Projekt 3</div>
-<div class="card">Projekt 4</div>
-</div>
+<h1>PORTFOLIO</h1>
 </section>
 
 <section id="about" class="about">
+<div class="about-text">
 <h2>O mnie</h2>
-<p>Mam 17 lat i zajmuję się projektowaniem graficznym. Specjalizuję się w projektach dla klubów sportowych, social media i branding.</p>
+<p>Mam na imię Antoni Mokrzan, mam 17 lat i zajmuję się projektowaniem graficznym. Tworzę nowoczesne grafiki dla klubów sportowych, social media i branding.</p>
+</div>
+
+<div class="about-box"></div>
 </section>
 
-<section id="contact" class="contact">
-<h2>Kontakt</h2>
+<footer id="contact">
+<p>© 2026 Twoje Antoni Mokrzan</p>
+<p>Masz ciekawy projekt? Porozmawiajmy!</p>
 
-<form action="https://formspree.io/f/yourID" method="POST">
-<input type="text" name="name" placeholder="Twoje imię" required>
-<input type="email" name="email" placeholder="Email" required>
-<textarea name="message" placeholder="Wiadomość"></textarea>
-<button class="btn" type="submit">Wyślij</button>
-</form>
+<div class="links">
+<a href="#">Instagram</a>
+<a href="#">Facebook</a>
+<a href="#">Behance</a>
+</div>
 
-</section>
-
-<footer>
-<p>© 2026 Antek</p>
+<p>📞 519603234</p>
+<p>✉️ antonimokrzan@gmail.com</p>
+<p>📍 Kalisz, Wielkopolska</p>
 </footer>
 
 </body>
