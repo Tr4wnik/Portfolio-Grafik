@@ -1,5 +1,5 @@
 .gj-button {
-    background-color: #f5f5f5;
+    background-color: #fafafa;
     border: 1px solid #ddd;
     color: #000;
     border-radius: 3px;
@@ -348,7 +348,7 @@ ul.gj-list-md li.disabled>[data-role="wrapper"]>[data-role="display"] {
 .gj-picker-md [role="header"] {
     color: rgba(255, 255, 255, 0.54);
     display: flex;
-    background: #2196f3;
+    background: #67BAF4;
     align-items: baseline;
     user-select: none;
     justify-content: center;
@@ -2389,14 +2389,14 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
 }
 
 .gj-picker-md .arrow-begin {
-    background-color: #2196f3;
+    background-color: #67BAF4;
 }
 .gj-picker-md .arrow-end {
-    border: 16px solid #2196f3;
+    border: 16px solid #67BAF4;
 }
 
 .gj-picker-md [role="body"] [role="arrow"] {
-    background-color: #2196f3;
+    background-color: #67BAF4;
 }
 
 /* Bootstrap */

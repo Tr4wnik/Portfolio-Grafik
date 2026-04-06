@@ -30,34 +30,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 /* line 38, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .section-bg1 {
-  background: #ff0000;
+  background: #67BAF4;
 }
 
 /* line 41, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .section-bg2 {
-  background: #f80000;
+  background: #67BAF4;
 }
 
 /* line 49, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .white-bg {
-  background: #ffffff;
+  background: #FAFAFA;
 }
 
 /* line 52, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .gray-bg {
-  background: #f5f5f5;
+  background: #67BAF4;
 }
 
 /*-------------Color include--------------*/
 /*-- Background color---*/
 /* line 71, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .gray-bg {
-  background: #f7f7fd;
+  background: #FAFAFA;
 }
 
 /* line 74, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .white-bg {
-  background: #ffffff;
+  background: #FAFAFA;
 }
 
 /* line 77, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
@@ -67,7 +67,7 @@
 
 /* line 80, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .theme-bg {
-  background: #000067;
+  background: #67BAF4;
 }
 
 /* line 83, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
@@ -88,37 +88,37 @@
 
 /* line 95, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .black-color {
-  color: #16161a;
+  color: #67BAF4;
 }
 
 /* line 98, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .theme-color {
-  color: #000067;
+  color: #67BAF4;
 }
 
 /* line 50, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_variables.scss */
 .boxed-btn {
   background: #fff;
-  color: #000067 !important;
+  color: #67BAF4 !important;
   display: inline-block;
   padding: 18px 44px;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #000067;
+  border: 1px solid #67BAF4;
   letter-spacing: 3px;
   text-align: center;
-  color: #000067;
+  color: #67BAF4;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 /* line 67, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_variables.scss */
 .boxed-btn:hover {
-  background: #000067;
+  background: #67BAF4;
   color: #fff !important;
-  border: 1px solid #000067;
+  border: 1px solid #67BAF4;
 }
 
 /* line 72, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_variables.scss */
@@ -378,7 +378,7 @@ hr {
 
 /* line 135, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .theme-overlay::before {
-  background: #1696e7 none repeat scroll 0 0;
+  background: #67BAF4 none repeat scroll 0 0;
   content: "";
   height: 100%;
   left: 0;
@@ -518,13 +518,13 @@ hr {
   background-size: 200%;
   transition: 0.6s;
   box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.12);
-  background-image: linear-gradient(to left, #670000, #880707, #670000);
+  background-image: linear-gradient(to left, #67BAF4, #1e466b, #67BAF4);
   background-position: right;
 }
 
 /* line 262, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .btn i {
-  color: #ffffff;
+  color: #FAFAFA;
   font-size: 13px;
   font-weight: 500;
   position: relative;
@@ -575,13 +575,13 @@ hr {
 /* line 303, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .white-btn {
   padding: 18px 36px;
-  background: #FFEFAE;
-  color: #670000 !important;
+  background: #67BAF4;
+  color: #FAFAFA !important;
 }
 
 /* line 307, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .white-btn::before {
-  background: #670000;
+  background: #6f00ff;
   color: #fff !important;
 }
 
@@ -601,7 +601,7 @@ hr {
 .borders-btn {
   padding: 10px 64px;
   background: none;
-  border: 1px solid #FD8F5F;
+  border: 1px solid #00ffdd;
   display: inline-block;
   color: #FD8F5F;
   border-radius: 30px;
@@ -626,14 +626,14 @@ hr {
   top: -7px;
 }
 
-/* line 348, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
+/* przcisk wyślij */ 
 .submit-btn2 {
-  background: #FFEFAE;
+  background: #67BAF4;
   width: 100%;
   height: 60px;
   padding: 10px 20px;
   border: 0;
-  color: #670000;
+  color: #FAFAFA;
   text-transform: capitalize;
   cursor: pointer;
   font-size: 16px;
@@ -666,7 +666,7 @@ hr {
 .border-btn i {
   font-size: 16px;
   margin-right: 10px;
-  color: #670000;
+  color: #9800fd;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -689,7 +689,7 @@ hr {
   top: 0;
   width: 101%;
   height: 101%;
-  background: #FD8F5F;
+  background: #1900ff;
   z-index: -1;
   transition: transform 0.5s;
   transition-timing-function: ease;
@@ -703,7 +703,7 @@ hr {
 .border-btn:hover::before {
   transform: scaleY(1);
   border: 1px solid transparent;
-  color: #fff;
+  color: #ffffff;
 }
 
 /* line 418, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
@@ -730,13 +730,13 @@ hr {
 /* button style */
 /* line 438, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .breadcrumb > .active {
-  color: #888;
+  color: #ff0000;
 }
 
 /* scrollUp */
 /* line 442, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
-#scrollUp, #back-top {
-  background: #670000;
+#scrollUp, #back-top { 
+  background: #67BAF4;
   height: 50px;
   width: 50px;
   right: 31px;
@@ -2509,7 +2509,7 @@ hr {
   position: relative;
   border-style: solid;
   border-width: 1px;
-  border-top-color: #670000;
+  border-top-color: #67BAF4;
   border-bottom-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
