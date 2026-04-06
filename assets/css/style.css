@@ -30,12 +30,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 /* line 38, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .section-bg1 {
-  background: #FFEFAE;
+  background: #ff0000;
 }
 
 /* line 41, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .section-bg2 {
-  background: #670000;
+  background: #f80000;
 }
 
 /* line 49, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
@@ -67,7 +67,7 @@
 
 /* line 80, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .theme-bg {
-  background: #670000;
+  background: #000067;
 }
 
 /* line 83, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
@@ -93,32 +93,32 @@
 
 /* line 98, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .theme-color {
-  color: #670000;
+  color: #000067;
 }
 
 /* line 50, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_variables.scss */
 .boxed-btn {
   background: #fff;
-  color: #670000 !important;
+  color: #000067 !important;
   display: inline-block;
   padding: 18px 44px;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #670000;
+  border: 1px solid #000067;
   letter-spacing: 3px;
   text-align: center;
-  color: #670000;
+  color: #000067;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 /* line 67, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_variables.scss */
 .boxed-btn:hover {
-  background: #670000;
+  background: #000067;
   color: #fff !important;
-  border: 1px solid #670000;
+  border: 1px solid #000067;
 }
 
 /* line 72, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_variables.scss */
