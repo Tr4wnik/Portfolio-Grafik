@@ -88,12 +88,12 @@
 
 /* line 95, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .black-color {
-  color: #EFF3FF;
+  color: #ffffff;
 }
 
 /* line 98, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .theme-color {
-  color: #EFF3FF;
+  color: #ffffff;
 }
 
 /* line 50, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_variables.scss */
@@ -116,9 +116,9 @@
 
 /* line 67, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_variables.scss */
 .boxed-btn:hover {
-  background: #EFF3FF;
-  color: #EFF3FF !important;
-  border: 1px solid #EFF3FF;
+  background: #ffffff;
+  color: #ffffff !important;
+  border: 1px solid #ffffff;
 }
 
 /* line 72, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_variables.scss */
@@ -783,7 +783,7 @@ hr {
   -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
   animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
   -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
-  background: #EFF3FF;
+  background: #ffffff;
 }
 
 /* Sticky end */
@@ -3120,7 +3120,7 @@ hr {
 /*-- Background color---*/
 /* line 71, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .gray-bg {
-  background: #f7f7fd;
+  background: #ffffff;
 }
 
 /* line 74, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
@@ -3140,7 +3140,7 @@ hr {
 
 /* line 83, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .brand-bg {
-  background: #f1f4fa;
+  background: #ffffff;
 }
 
 /* line 86, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
@@ -3683,7 +3683,7 @@ hr {
 
 /* TLO O MNIE */
 .about-area {
-  background: #EFF3FF;
+  background: #ffffff;
   position: relative;
   margin-right: 100px;
   position: relative;
@@ -4124,7 +4124,7 @@ hr {
 
 /* line 50, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_gallery.scss */
 .gallery-area .box .overlay .overlay-content a {
-  color: #03396c;
+  color: #EFF3FF;
   display: inline-block;
   text-align: center;
   font-size: 37px;
