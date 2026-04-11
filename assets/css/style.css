@@ -737,17 +737,18 @@ hr {
 /* line 442, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 #scrollUp, #back-top { 
   background: #011f4b;
-  height: 50px;
-  width: 50px;
-  right: 31px;
+  height: 55px;
+  width: 55px;
+  right: 50px;
   bottom: 18px;
   position: fixed;
   color: #011f4b;
   font-size: 20px;
   text-align: center;
+  justify-content: center;
   border-radius: 50%;
-  line-height: 48px;
-  border: 2px solid transparent;
+  line-height: 60px;
+  border: 15px solid transparent;
   box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
 }
 
@@ -761,7 +762,7 @@ hr {
 /* line 459, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 #scrollUp a i, #back-top a i {
   display: block;
-  line-height: 50px;
+  line-height: 27px;
 }
 
 /* line 466, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
