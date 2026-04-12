@@ -215,8 +215,8 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: normal;
 }
 
-h1 { font-size: 48px; font-weight: 700; }
-h2 { font-size: 36px; font-weight: 600; }
+h1 { font-size: 48px; font-weight: 900; }
+h2 { font-size: 36px; font-weight: 700; }
 h3 { font-size: 28px; font-weight: 600; }
 h4 { font-size: 22px; font-weight: 500; }
 h5 { font-size: 18px; font-weight: 500; }
@@ -224,7 +224,7 @@ h6 { font-size: 16px; font-weight: 500; }
 
 /* line 24, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 p {
-  color: #EFF3FF;
+  color: #000000;
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 15px;
