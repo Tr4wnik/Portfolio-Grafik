@@ -3018,7 +3018,7 @@ hr {
 .section-tittle h2 {
   font-size: 80px;
   display: block;
-  font-weight: 300;
+  font-weight: 600;
   line-height: 1.4;
   margin-bottom: 22px;
   color: #011f4b;
@@ -3062,7 +3062,7 @@ hr {
 .section-tittle2 h2 {
   color: #EFF3FF;
   font-size: 80px;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 @media (max-width: 575px) {
@@ -3253,7 +3253,7 @@ hr {
 /* line 54, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss */
 .header-area .menu-wrapper .main-menu ul li a {
   color: #EFF3FF;
-  font-weight: 400;
+  font-weight: 200;
   padding: 39px 19px;
   display: block;
   font-size: 16px;
@@ -3482,7 +3482,7 @@ hr {
 .slider-area .hero__caption p {
   color: #EFF3FF;
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 200;
   padding-right: 50px;
 }
 
@@ -3548,7 +3548,7 @@ hr {
 /* ANTONI*/ 
 .slider-area .hero__caption h1 {
   font-size: 280px;
-  font-weight: 300;
+  font-weight: 500;
   text-transform: uppercase;
   color: #EFF3FF;
   line-height: 1;
@@ -3591,7 +3591,7 @@ hr {
   color: #03396c;
   font-size: 60px;
   line-height: 1.2;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 30px;
   display: block;
 }
@@ -3662,7 +3662,7 @@ hr {
 /* line 161, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
 .hero-area2 .hero-cap h2 {
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 700;
   text-transform: capitalize;
 }
 
@@ -3820,7 +3820,7 @@ hr {
   font-size: 60px;
   margin-bottom: 18px;
   display: block;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -3905,7 +3905,7 @@ hr {
 .about-area .about-right-cap p {
   font-size: 22px;
   color: #EFF3FF;
-  font-weight: 300;
+  font-weight: 100;
   padding-right: 13px;
   line-height: 1.5;
 }
@@ -3992,7 +3992,7 @@ hr {
 
 /* line 15, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_my-about.scss */
 .may-about .single-about .tittle-experience h3 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 30px;
   color: #b3cde0;
   margin-bottom: 19px;
@@ -4332,7 +4332,7 @@ hr {
   padding-right: 25px;
   padding-right: 30px;
   color: #EFF3FF;
-  font-weight: 400;
+  font-weight: 100;
   text-transform: capitalize;
   border-radius: 0px;
   background: none;
@@ -4430,7 +4430,7 @@ hr {
 .footer-wrappr .form-wrapper input::-moz-placeholder {
   color: #EFF3FF;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 500;
   transition: .4s;
 }
 
@@ -4457,7 +4457,7 @@ hr {
 /* line 109, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_footer.scss */
 .footer-bottom-area .footer-copy-right p {
   color: #EFF3FF;
-  font-weight: 300;
+  font-weight: 100;
   font-size: 14px;
   line-height: 2;
   margin-bottom: 0px;
